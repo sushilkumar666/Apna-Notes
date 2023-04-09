@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const url = "mongodb://localhost:27017"
+const url = "mongodb+srv://sushilssharma064:sushilssharma064@inotes.mg7rmdj.mongodb.net/test"
 
 const connectToMongo = () => {
     mongoose.connect(url, () => {
